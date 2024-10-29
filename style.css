@@ -1,0 +1,97 @@
+body {
+  background-color: #E4E0E1;
+  color: #493628;
+  font-family: helvetica;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  text-align: justified;
+}
+
+h1, h2{
+  font-family: oswald, sans-serif;
+  color: #AB886D;
+  font-size: 25px;
+}
+
+h1{
+  font-weight: 900;
+}
+
+h2{
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+a{
+  text-decoration: none;
+  color: #AB886D;
+  font-family: oswald, sans-serif;
+  transition: color 0.3s ease;
+
+}
+a:hover {
+  color: steelblue;
+}
+
+/* Custom design with class*/
+.box-white {
+  background-color: white;
+  margin: 50px 300px;
+  padding: 50px 100px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgb(150,150,150);
+  text-align: center;
+}
+
+.container {
+  background-color: #AB886D;
+  padding: 5px 5px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 1500px;
+  }
+  .box-white {
+    width: 400px;
+  }
+}
+
+.logo-aligned {
+  display: inline;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.logo-aligned:hover {
+  font-size: 50px;
+  transition: 0.5s ease;
+}
+
+#ieseg {
+  background-color: #AB886D;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 800;
+}
+
+#ieseg:hover {
+background-color: grey;
+color: ##AB886D;
+transition: 0.5s ease;
+}
+
+.text-thin {
+  font-weight: thinner;
+}
+
+#profile {
+  border-radius: 60%;
+}
+
+#follow {
+  margin: 15px 500px;
+  padding-top: 5px;
+}
